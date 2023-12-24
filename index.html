@@ -1,530 +1,518 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Portofolio - Lamin H Datau || Home</title>
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
+    <!-- Bootstrap icons-->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
       rel="stylesheet"
     />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script>
+      setTimeout(() => {
+        !(function (f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function () {
+            n.callMethod
+              ? n.callMethod.apply(n, arguments)
+              : n.queue.push(arguments);
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = "2.0";
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s);
+        })(
+          window,
+          document,
+          "script",
+          "https://connect.facebook.net/en_US/fbevents.js"
+        );
+        fbq.disablePushState;
+        fbq("init", "470997813790692");
+      }, 2000);
+    </script>
   </head>
-  <body class="main-content">
-    <header class="container header active" id="home">
-      <div class="header-content">
-        <div class="left-header">
-          <div class="h-shape"></div>
-          <div class="image">
-            <img src="img/lamin.jpg" alt="" />
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container px-5">
+          <a class="navbar-brand" href="index.html"
+            ><span class="fw-bolder text-primary">Lamin H. Datau</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Riwayat Hidup</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Project Saya</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Kontak</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="right-header">
-          <h1 class="name">
-            Halo, Saya <span>Lamin H. Datau</span>
-            Seorang Web Developer.
-          </h1>
-          <p>
-            "Saya adalah seorang junior programmer yang memiliki antusiasme yang
-            tinggi dalam dunia pemrograman. Saya selalu bersemangat untuk terus
-            belajar dan mengembangkan keterampilan saya dalam berbagai bahasa
-            pemrograman dan konsep-konsep baru. Saya memiliki kemampuan untuk
-            dengan cepat mempelajari dan menerapkan pengetahuan baru dalam
-            proyek-proyek yang saya kerjakan."
-          </p>
-          <div class="btn-con">
-            <a href="" class="main-btn">
-              <span class="btn-text">Download CV</span>
-              <span class="btn-icon"><i class="fas fa-download"></i></span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section class="container about" id="about">
-        <div class="main-title">
-          <h2>
-            About <span>me</span><span class="bg-text">Tentang Saya</span>
-          </h2>
-        </div>
-        <div class="about-container">
-          <div class="left-about">
-            <h4>Information About me</h4>
-            <p>
-              "Saya adalah seorang profesional yang berdedikasi di bidang
-              teknologi informasi dengan kecintaan yang mendalam terhadap
-              pemrograman dan pengembangan perangkat lunak. Dengan pengalaman
-              sebagai junior programmer, saya telah terlibat dalam berbagai
-              proyek yang melibatkan pemrograman web dan aplikasi. Saya memiliki
-              kemampuan yang kuat dalam bahasa pemrograman seperti JavaScript dan
-              PHP, serta pemahaman yang baik tentang konsep-konsep
-              dasar seperti struktur data, algoritma, dan pengembangan berbasis
-              objek. ".
-            </p>
-            <div class="btn-con">
-              <a href="#" class="main-btn">
-                <span class="btn-text">Download CV</span>
-                <span class="btn-icon"><i class="fas fa-download"></i></span>
-              </a>
-            </div>
-          </div>
-          <div class="right-about">
-            <div class="about-item">
-              <div class="abt-text">
-                <p class="large-text">1</p>
-                <p class="small-text">
-                  Projects <br />
-                  Selesai
-                </p>
-              </div>
-            </div>
-            <div class="about-item">
-              <div class="abt-text">
-                <p class="large-text">3</p>
-                <p class="small-text">
-                  Years of <br />
-                  Belajar
-                </p>
-              </div>
-            </div>
-            <div class="about-item">
-              <div class="abt-text">
-                <p class="large-text">1</p>
-                <p class="small-text">
-                  Happy <br />
-                  Clients
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="about-stats">
-          <h4 class="stat-title">My Skills</h4>
-          <div class="progress-bars">
-            <div class="progress-bar">
-              <p class="prog-title">html</p>
-              <div class="progress-con">
-                <p class="prog-text">80%</p>
-                <div class="progress">
-                  <span class="html"></span>
+      </nav>
+      <!-- Header-->
+      <header class="py-5">
+        <div class="container px-5 pb-5">
+          <div class="row gx-5 align-items-center">
+            <div class="col-xxl-5">
+              <!-- Header text content-->
+              <div class="text-center text-xxl-start">
+                <div
+                  class="badge bg-gradient-primary-to-secondary text-white mb-4"
+                >
+                  <div class="text-uppercase">Fullstack Developer</div>
+                </div>
+                <div class="fs-3 fw-light text-muted">
+                  Selamat datang di Portofolio saya
+                </div>
+                <h1 class="display-3 fw-bolder mb-5">
+                  <span class="text-gradient d-inline">Lamin H. Datau</span>
+                </h1>
+                <div
+                  class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3"
+                >
+                  <a
+                    class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
+                    href="resume.html"
+                    >Riwayat Hidup</a
+                  >
+                  <a
+                    class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
+                    href="projects.html"
+                    >Project Saya</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="progress-bar">
-              <p class="prog-title">css</p>
-              <div class="progress-con">
-                <p class="prog-text">50%</p>
-                <div class="progress">
-                  <span class="css"></span>
-                </div>
-              </div>
-            </div>
-            <div class="progress-bar">
-              <p class="prog-title">javascript</p>
-              <div class="progress-con">
-                <p class="prog-text">50%</p>
-                <div class="progress">
-                  <span class="js"></span>
-                </div>
-              </div>
-            </div>
-            <div class="progress-bar">
-              <p class="prog-title">ReactJS</p>
-              <div class="progress-con">
-                <p class="prog-text">30%</p>
-                <div class="progress">
-                  <span class="react"></span>
-                </div>
-              </div>
-            </div>
-            <div class="progress-bar">
-              <p class="prog-title">NodeJS</p>
-              <div class="progress-con">
-                <p class="prog-text">20%</p>
-                <div class="progress">
-                  <span class="node"></span>
-                </div>
-              </div>
-            </div>
-            <div class="progress-bar">
-              <p class="prog-title">Php</p>
-              <div class="progress-con">
-                <p class="prog-text">80%</p>
-                <div class="progress">
-                  <span class="python"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <h4 class="stat-title">My Timeline</h4>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="tl-icon">
-              <i class="fas fa-briefcase"></i>
-            </div>
-            <p class="tl-duration">2023 - present</p>
-            <h5>Web Developer</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              quasi vero fugit.
-            </p>
-          </div>
-          <div class="timeline-item">
-            <div class="tl-icon">
-              <i class="fas fa-briefcase"></i>
-            </div>
-            <p class="tl-duration">2008 - 2011</p>
-            <h5>Software Engineer<span> - Boogle, Inc.</span></h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              quasi vero fugit.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="container" id="portfolio">
-        <div class="main-title">
-          <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
-        </div>
-        <p class="port-text">
-          Here is some of my work that I've done in various programming
-          languages.
-        </p>
-        <div class="portfolios">
-          <div class="portfolio-item">
-            <div class="image">
-              <img src="img/port1.jpg" alt="" />
-            </div>
-            <div class="hover-items">
-              <h3>Project Source</h3>
-              <div class="icons">
-                <a href="#" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-behance"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <div class="image">
-              <img src="img/port2.jpg" alt="" />
-            </div>
-            <div class="hover-items">
-              <h3>Project Source</h3>
-              <div class="icons">
-                <a href="#" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-behance"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <div class="image">
-              <img src="img/port3.jpg" alt="" />
-            </div>
-            <div class="hover-items">
-              <h3>Project Source</h3>
-              <div class="icons">
-                <a href="#" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-behance"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <div class="image">
-              <img src="img/port4.jpg" alt="" />
-            </div>
-            <div class="hover-items">
-              <h3>Project Source</h3>
-              <div class="icons">
-                <a href="#" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-behance"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <div class="image">
-              <img src="img/port5.jpg" alt="" />
-            </div>
-            <div class="hover-items">
-              <h3>Project Source</h3>
-              <div class="icons">
-                <a href="#" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-behance"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <div class="image">
-              <img src="img/port2.jpg" alt="" />
-            </div>
-            <div class="hover-items">
-              <h3>Project Source</h3>
-              <div class="icons">
-                <a href="#" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-behance"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <div class="image">
-              <img src="img/port7.jpg" alt="" />
-            </div>
-            <div class="hover-items">
-              <h3>Project Source</h3>
-              <div class="icons">
-                <a href="#" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-behance"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container" id="blogs">
-        <div class="blogs-content">
-          <div class="main-title">
-            <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
-          </div>
-          <div class="blogs">
-            <div class="blog">
-              <img src="img/port6.jpg" alt="" />
-              <div class="blog-text">
-                <h4>How to Create Your Own Website</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
-                </p>
-              </div>
-            </div>
-            <div class="blog">
-              <img src="img/blog1.jpg" alt="" />
-              <div class="blog-text">
-                <h4>How to Become an Expert in Web Design</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
-                </p>
-              </div>
-            </div>
-            <div class="blog">
-              <img src="img/blog2.jpg" alt="" />
-              <div class="blog-text">
-                <h4>Become a Web Designer in 10 Days</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
-                </p>
-              </div>
-            </div>
-            <div class="blog">
-              <img src="img/blog3.jpg" alt="" />
-              <div class="blog-text">
-                <h4>Debbuging made easy with Web Inspector</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
-                </p>
-              </div>
-            </div>
-            <div class="blog">
-              <img src="img/port1.jpg" alt="" />
-              <div class="blog-text">
-                <h4>Get started with Web Design and UI Design</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
-                </p>
-              </div>
-            </div>
-            <div class="blog">
-              <img src="img/port3.jpg" alt="" />
-              <div class="blog-text">
-                <h4>This is what you need to know about Web Design</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus natus voluptas, eos obcaecati recusandae amet?
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container contact" id="contact">
-        <div class="contact-container">
-          <div class="main-title">
-            <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-          </div>
-          <div class="contact-content-con">
-            <div class="left-contact">
-              <h4>Contact me here</h4>
-              <p>
-               Saya mahasiswa di Politeknik Gorontalo Semester 6.
-              </p>
-              <div class="contact-info">
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Location</span>
+            <div class="col-xxl-7">
+              <!-- Header profile picture-->
+              <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                <div class="profile bg-gradient-primary-to-secondary">
+                  <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
+                  <!-- Watch a tutorial on how to do this on YouTube (link)-->
+                  <img class="profile-img" src="assets/profile.png" alt="..." />
+                  <div class="dots-1">
+                    <!-- SVG Dots-->
+                    <svg
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 191.6 1215.4"
+                      style="enable-background: new 0 0 191.6 1215.4"
+                      xml:space="preserve"
+                    >
+                      <g
+                        transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+                      >
+                        <path
+                          d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"
+                        ></path>
+                        <path
+                          d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"
+                        ></path>
+                        <path
+                          d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"
+                        ></path>
+                        <path
+                          d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"
+                        ></path>
+                        <path
+                          d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"
+                        ></path>
+                        <path
+                          d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"
+                        ></path>
+                        <path
+                          d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"
+                        ></path>
+                        <path
+                          d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"
+                        ></path>
+                        <path
+                          d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"
+                        ></path>
+                        <path
+                          d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"
+                        ></path>
+                      </g>
+                    </svg>
+                    <!-- END of SVG dots-->
                   </div>
-                  <p>: Indonesia, Kabupaten Gorontalo</p>
-                </div>
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-envelope"></i>
-                    <span>Email</span>
+                  <div class="dots-2">
+                    <!-- SVG Dots-->
+                    <svg
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 191.6 1215.4"
+                      style="enable-background: new 0 0 191.6 1215.4"
+                      xml:space="preserve"
+                    >
+                      <g
+                        transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+                      >
+                        <path
+                          d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"
+                        ></path>
+                        <path
+                          d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"
+                        ></path>
+                        <path
+                          d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"
+                        ></path>
+                        <path
+                          d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"
+                        ></path>
+                        <path
+                          d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"
+                        ></path>
+                        <path
+                          d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"
+                        ></path>
+                        <path
+                          d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"
+                        ></path>
+                        <path
+                          d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"
+                        ></path>
+                        <path
+                          d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"
+                        ></path>
+                        <path
+                          d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"
+                        ></path>
+                      </g>
+                    </svg>
+                    <!-- END of SVG dots-->
                   </div>
-                  <p>
-                    <span>: laminhdataulamin2@gmail.com</span>
-                  </p>
-                </div>
-               
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-user-graduate"></i>
-                    <span>Mobile Number</span>
+                  <div class="dots-3">
+                    <!-- SVG Dots-->
+                    <svg
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 191.6 1215.4"
+                      style="enable-background: new 0 0 191.6 1215.4"
+                      xml:space="preserve"
+                    >
+                      <g
+                        transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+                      >
+                        <path
+                          d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"
+                        ></path>
+                        <path
+                          d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"
+                        ></path>
+                        <path
+                          d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"
+                        ></path>
+                        <path
+                          d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"
+                        ></path>
+                        <path
+                          d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"
+                        ></path>
+                        <path
+                          d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"
+                        ></path>
+                        <path
+                          d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"
+                        ></path>
+                        <path
+                          d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"
+                        ></path>
+                        <path
+                          d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"
+                        ></path>
+                        <path
+                          d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"
+                        ></path>
+                      </g>
+                    </svg>
+                    <!-- END of SVG dots-->
                   </div>
-                  <p>
-                    <span>: 082271305463</span>
-                  </p>
-                </div>
-                <div class="contact-item">
-                  <div class="icon">
-                    <i class="fas fa-globe-africa"></i>
-                    <span>Languages</span>
+                  <div class="dots-4">
+                    <!-- SVG Dots-->
+                    <svg
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 191.6 1215.4"
+                      style="enable-background: new 0 0 191.6 1215.4"
+                      xml:space="preserve"
+                    >
+                      <g
+                        transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+                      >
+                        <path
+                          d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"
+                        ></path>
+                        <path
+                          d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"
+                        ></path>
+                        <path
+                          d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"
+                        ></path>
+                        <path
+                          d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"
+                        ></path>
+                        <path
+                          d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"
+                        ></path>
+                        <path
+                          d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"
+                        ></path>
+                        <path
+                          d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"
+                        ></path>
+                        <path
+                          d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"
+                        ></path>
+                        <path
+                          d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"
+                        ></path>
+                        <path
+                          d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"
+                        ></path>
+                        <path
+                          d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"
+                        ></path>
+                      </g>
+                    </svg>
+                    <!-- END of SVG dots-->
                   </div>
-                  <p>
-                    <span>: Indonesia, Gorontalo</span>
-                  </p>
-                </div>
-              </div>
-              <div class="contact-icons">
-                <div class="contact-icon">
-                  <a href="https://web.facebook.com/laminhdataulamin2/" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="https://github.com/Laminhdatau/" target="_blank">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                  </a>
                 </div>
               </div>
             </div>
-            <div class="right-contact">
-              <form action="" class="contact-form">
-                <div class="input-control i-c-2">
-                  <input type="text" required placeholder="YOUR NAME" />
-                  <input type="email" required placeholder="YOUR EMAIL" />
+          </div>
+        </div>
+      </header>
+      <!-- About Section-->
+      <section class="bg-light py-5">
+        <div class="container px-5">
+          <div class="row gx-5 justify-content-center">
+            <div class="col-xxl-8">
+              <div class="text-center my-5">
+                <h2 class="display-5 fw-bolder">
+                  <span class="text-gradient d-inline">Tentang Saya</span>
+                </h2>
+                <p class="lead fw-light mb-4">
+                  Saya Lamin H. Datau seorang Fullstack Developer.
+                </p>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit dolorum itaque qui unde quisquam consequatur autem.
+                  Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa!
+                  Praesentium ratione atque dolorem?
+                </p>
+                <div class="d-flex justify-content-center fs-2 gap-4">
+                  <a class="text-gradient" href="#!"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a class="text-gradient" href="#!"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                  <a class="text-gradient" href="https://github.com/laminhdatau"
+                    ><i class="bi bi-github"></i
+                  ></a>
                 </div>
-                <div class="input-control">
-                  <input type="text" required placeholder="ENTER SUBJECT" />
-                </div>
-                <div class="input-control">
-                  <textarea
-                    name=""
-                    id=""
-                    cols="15"
-                    rows="8"
-                    placeholder="Message Here..."
-                  ></textarea>
-                </div>
-                <div class="submit-btn">
-                  <a href="#" class="main-btn">
-                    <span class="btn-text">Download CV</span>
-                    <span class="btn-icon"
-                      ><i class="fas fa-download"></i
-                    ></span>
-                  </a>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-
-    <div class="controls">
-      <div class="control active-btn" data-id="home">
-        <i class="fas fa-home"></i>
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0">Copyright &copy; Dev.Minjeey 2023</div>
+          </div>
+          <div class="col-auto">
+            <a class="small" href="#!">Privacy</a>
+            <span class="mx-1">&middot;</span>
+            <a class="small" href="#!">Terms</a>
+            <span class="mx-1">&middot;</span>
+            <a class="small" href="#!">Contact</a>
+          </div>
+        </div>
       </div>
-      <div class="control" data-id="about">
-        <i class="fas fa-user"></i>
-      </div>
-      <div class="control" data-id="portfolio">
-        <i class="fas fa-briefcase"></i>
-      </div>
-      <div class="control" data-id="blogs">
-        <i class="far fa-newspaper"></i>
-      </div>
-      <div class="control" data-id="contact">
-        <i class="fas fa-envelope-open"></i>
-      </div>
-    </div>
-    <div class="theme-btn">
-      <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
   </body>
 </html>
